@@ -1,0 +1,129 @@
+body,
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.imghotel {
+  height: 200px !important;
+  width: 100% !important;
+}
+.bs {
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  margin-top: 1rem !important;
+  padding: 2rem !important;
+  border-radius: 0.5rem;
+}
+.main-heading {
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+.bigimg {
+  border-radius: 0.5rem;
+  width: 200px !important;
+  height: 300px;
+}
+.link1 {
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+.link1:hover {
+  color: white !important;
+}
+.bigimage {
+  height: 88% !important;
+}
+.ant-picker,
+.ant-picker-range {
+  width: 100% !important;
+  border: 2px solid black !important;
+}
+input,
+select {
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  border: 2px solid black !important;
+  width: 100% !important;
+}
+.bsh1 {
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+.sb {
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  margin-bottom: 2rem;
+  padding: 2rem !important;
+  border-radius: 0.5rem;
+}
+.sb p {
+  font-weight: bolder;
+}
+.sb span {
+  font-weight: 450 !important;
+}
+.textright {
+  text-align: right !important;
+}
+table {
+  font-size: 0.7rem !important;
+}
+.navbar1 {
+  background-color: black;
+}
+.landing {
+  background-color: black;
+  height: 100vh;
+  padding-top: 8rem;
+}
+.headl1 {
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.headl2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.getbutton {
+  background-color: white !important;
+  color: black !important;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bookingsdata {
+  margin-left: 2px !important;
+}
+
+@media only screen and (max-width: 769px) {
+  .bigimage {
+    width: 100%;
+    height: 300px !important;
+    margin-bottom: 2rem !important;
+  }
+  .landing {
+    height: 100vh !important;
+    padding-top: 10rem;
+  }
+  .headl1 {
+    font-size: 3.5rem !important;
+  }
+  .headl2 {
+    font-size: 0.9rem;
+  }
+}
